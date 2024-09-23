@@ -16,7 +16,7 @@ public class DBConnection {
             System.err.println("JDBC Driver not found.");
             e.printStackTrace();
         }
-        // Establish and return the connection
+        
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
 }

@@ -8,7 +8,19 @@ public class Employee {
     private double salary;
     private String joinDate;
 
-    // Getters and Setters
+   
+    public Employee(String name, String email, String department, double salary, String joinDate) {
+        this.name = name;
+        this.email = email;
+        this.department = department;
+        this.salary = salary;
+        this.joinDate = joinDate;
+    }
+
+    
+    public Employee() {}
+
+    
     public int getId() {
         return id;
     }

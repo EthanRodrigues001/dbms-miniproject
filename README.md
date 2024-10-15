@@ -8,10 +8,10 @@
 CREATE TABLE employees (
     id INT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
-    email VARCHAR(100) NOT NULL,
     department VARCHAR(100) NOT NULL,
-    salary DOUBLE NOT NULL,
-    join_date DATE NOT NULL
+    join_date DATE NOT NULL,
+    birth_date DATE NOT NULL,
+    salary DOUBLE NOT NULL
 );
 ```
 2. Create the `login` Table

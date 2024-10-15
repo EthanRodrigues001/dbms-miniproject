@@ -21,6 +21,10 @@ CREATE TABLE login (
     password VARCHAR(100) NOT NULL
 );
 ```
+Insert a user into the login table
+```sql
+INSERT INTO login (username, password) VALUES ('admin', 'admin123');
+```
 3. View the Table Structure
 ```sql
 DESCRIBE employees;
